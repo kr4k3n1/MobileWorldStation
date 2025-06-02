@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services - Mobile World Station</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5em;
+      margin-top: 2em;
+    }
+
+    .service-card {
+      background: white;
+      padding: 2em;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+    }
+
+    .service-icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.8em;
+    }
+
+    .service-card h3 {
+      margin-bottom: 0.5em;
+      color: #004aad;
+    }
+
+    .service-card p {
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Mobile World Station</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="repair.html">Book Repair</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="content">
+  <h1>Our Repair Services</h1>
+  <p>We fix everything from cracked screens to water damage — fast, affordable, and professional. Here’s what we offer:</p>
+
+  <div class="services-grid">
+
+    <div class="service-card">
+      <div class="service-icon">📱</div>
+      <h3>Screen Repair</h3>
+      <p>Cracked or shattered screen? We replace it with high-quality parts — same-day service available!</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🔋</div>
+      <h3>Battery Replacement</h3>
+      <p>Is your phone dying quickly? We install a brand-new battery so your device lasts all day again.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">💧</div>
+      <h3>Water Damage Recovery</h3>
+      <p>Dropped your phone in water? Don’t panic! We can dry and revive most liquid-damaged phones.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">⚙️</div>
+      <h3>Software Troubleshooting</h3>
+      <p>Frozen screen? App crashes? We diagnose and fix system errors, viruses, or boot loops.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🚀</div>
+      <h3>Device Setup</h3>
+      <p>New phone? We help you transfer data, set up apps, and secure your account — stress free.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🔍</div>
+      <h3>Free Diagnostics</h3>
+      <p>Not sure what’s wrong? Bring your device in for a free check-up — no commitment.</p>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>Contact us: info@mobileworld.com | +123 456 7890</p>
+</footer>
+
+</body>
+</html>
